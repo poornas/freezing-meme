@@ -23,6 +23,13 @@
 		AE98B159177258340033496F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE98B134177258330033496F /* Foundation.framework */; };
 		AE98B161177258340033496F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE98B15F177258340033496F /* InfoPlist.strings */; };
 		AE98B164177258340033496F /* SimpleProjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE98B163177258340033496F /* SimpleProjTests.m */; };
+		AE98B16F17725A460033496F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE98B16E17725A460033496F /* SecondViewController.m */; };
+		AE98B17817725C580033496F /* libOBD2Kit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE98B17517725C330033496F /* libOBD2Kit.a */; };
+		AE98B17A17725C5F0033496F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE98B17917725C5F0033496F /* CFNetwork.framework */; };
+		AE98B17C17725C6D0033496F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE98B17B17725C6D0033496F /* CoreLocation.framework */; };
+		AE98B17E17725C720033496F /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE98B17D17725C720033496F /* ExternalAccessory.framework */; };
+		AE98B18117725C990033496F /* BasicScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE98B18017725C990033496F /* BasicScanViewController.m */; };
+		FA5AA9183C3349CFAC4EAB6F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A780624E03F242788AEEFE0E /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +40,24 @@
 			remoteGlobalIDString = AE98B12E177258330033496F;
 			remoteInfo = SimpleProj;
 		};
+		AE98B17417725C330033496F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE98B17017725C330033496F /* OBD2Kit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = OBD2Kit;
+		};
+		AE98B17617725C4F0033496F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE98B17017725C330033496F /* OBD2Kit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = OBD2Kit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A780624E03F242788AEEFE0E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE98B12F177258330033496F /* SimpleProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE98B132177258330033496F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AE98B134177258330033496F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +80,21 @@
 		AE98B160177258340033496F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE98B162177258340033496F /* SimpleProjTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleProjTests.h; sourceTree = "<group>"; };
 		AE98B163177258340033496F /* SimpleProjTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleProjTests.m; sourceTree = "<group>"; };
+		AE98B16D17725A460033496F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AE98B16E17725A460033496F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		AE98B17017725C330033496F /* OBD2Kit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OBD2Kit.xcodeproj; path = "../OBD2Kit-master/OBD2Kit.xcodeproj"; sourceTree = "<group>"; };
+		AE98B17917725C5F0033496F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AE98B17B17725C6D0033496F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AE98B17D17725C720033496F /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		AE98B17F17725C990033496F /* BasicScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicScanViewController.h; path = ../BasicScanViewController.h; sourceTree = "<group>"; };
+		AE98B18017725C990033496F /* BasicScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicScanViewController.m; path = ../BasicScanViewController.m; sourceTree = "<group>"; };
+		AEFAA10617725DB90034C99E /* FLScanTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLScanTool.h; sourceTree = "<group>"; };
+		AEFAA10717725DD70034C99E /* FLScanToolCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLScanToolCommand.h; sourceTree = "<group>"; };
+		AEFAA10817725DDE0034C99E /* FLScanToolResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLScanToolResponse.h; sourceTree = "<group>"; };
+		AEFAA10917725DE40034C99E /* FLScanToolResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLScanToolResponseParser.h; sourceTree = "<group>"; };
+		AEFAA10A17725DE90034C99E /* FLECUSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLECUSensor.h; sourceTree = "<group>"; };
+		AEFAA10D177260240034C99E /* FLLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLogging.h; sourceTree = "<group>"; };
+		DA517C722ED646D79395C121 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +102,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE98B17E17725C720033496F /* ExternalAccessory.framework in Frameworks */,
+				AE98B17C17725C6D0033496F /* CoreLocation.framework in Frameworks */,
+				AE98B17A17725C5F0033496F /* CFNetwork.framework in Frameworks */,
+				AE98B17817725C580033496F /* libOBD2Kit.a in Frameworks */,
 				AE98B133177258330033496F /* UIKit.framework in Frameworks */,
 				AE98B135177258330033496F /* Foundation.framework in Frameworks */,
 				AE98B137177258330033496F /* CoreGraphics.framework in Frameworks */,
+				FA5AA9183C3349CFAC4EAB6F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,10 +129,15 @@
 		AE98B126177258330033496F = {
 			isa = PBXGroup;
 			children = (
+				AE98B17D17725C720033496F /* ExternalAccessory.framework */,
+				AE98B17B17725C6D0033496F /* CoreLocation.framework */,
+				AE98B17917725C5F0033496F /* CFNetwork.framework */,
+				AE98B17017725C330033496F /* OBD2Kit.xcodeproj */,
 				AE98B138177258330033496F /* SimpleProj */,
 				AE98B15C177258340033496F /* SimpleProjTests */,
 				AE98B131177258330033496F /* Frameworks */,
 				AE98B130177258330033496F /* Products */,
+				DA517C722ED646D79395C121 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +157,7 @@
 				AE98B134177258330033496F /* Foundation.framework */,
 				AE98B136177258330033496F /* CoreGraphics.framework */,
 				AE98B156177258340033496F /* SenTestingKit.framework */,
+				A780624E03F242788AEEFE0E /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,10 +165,20 @@
 		AE98B138177258330033496F /* SimpleProj */ = {
 			isa = PBXGroup;
 			children = (
+				AEFAA10A17725DE90034C99E /* FLECUSensor.h */,
+				AEFAA10917725DE40034C99E /* FLScanToolResponseParser.h */,
+				AEFAA10817725DDE0034C99E /* FLScanToolResponse.h */,
+				AEFAA10717725DD70034C99E /* FLScanToolCommand.h */,
+				AEFAA10617725DB90034C99E /* FLScanTool.h */,
+				AE98B17F17725C990033496F /* BasicScanViewController.h */,
+				AE98B18017725C990033496F /* BasicScanViewController.m */,
+				AEFAA10D177260240034C99E /* FLLogging.h */,
 				AE98B141177258340033496F /* AppDelegate.h */,
 				AE98B142177258340033496F /* AppDelegate.m */,
 				AE98B14A177258340033496F /* MainStoryboard.storyboard */,
 				AE98B14D177258340033496F /* ViewController.h */,
+				AE98B16D17725A460033496F /* SecondViewController.h */,
+				AE98B16E17725A460033496F /* SecondViewController.m */,
 				AE98B14E177258340033496F /* ViewController.m */,
 				AE98B139177258340033496F /* Supporting Files */,
 			);
@@ -160,6 +218,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AE98B17117725C330033496F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE98B17517725C330033496F /* libOBD2Kit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,13 +233,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE98B167177258340033496F /* Build configuration list for PBXNativeTarget "SimpleProj" */;
 			buildPhases = (
+				C47FF0A46D104C589779E71B /* Check Pods Manifest.lock */,
 				AE98B12B177258330033496F /* Sources */,
 				AE98B12C177258330033496F /* Frameworks */,
 				AE98B12D177258330033496F /* Resources */,
+				79399CD50E5A456C990DEE64 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AE98B17717725C4F0033496F /* PBXTargetDependency */,
 			);
 			name = SimpleProj;
 			productName = SimpleProj;
@@ -218,6 +287,12 @@
 			mainGroup = AE98B126177258330033496F;
 			productRefGroup = AE98B130177258330033496F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AE98B17117725C330033496F /* Products */;
+					ProjectRef = AE98B17017725C330033496F /* OBD2Kit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AE98B12E177258330033496F /* SimpleProj */,
@@ -225,6 +300,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AE98B17517725C330033496F /* libOBD2Kit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOBD2Kit.a;
+			remoteRef = AE98B17417725C330033496F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AE98B12D177258330033496F /* Resources */ = {
@@ -250,6 +335,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		79399CD50E5A456C990DEE64 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 		AE98B153177258340033496F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,6 +362,20 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		C47FF0A46D104C589779E71B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -273,6 +386,8 @@
 				AE98B13F177258340033496F /* main.m in Sources */,
 				AE98B143177258340033496F /* AppDelegate.m in Sources */,
 				AE98B14F177258340033496F /* ViewController.m in Sources */,
+				AE98B16F17725A460033496F /* SecondViewController.m in Sources */,
+				AE98B18117725C990033496F /* BasicScanViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +406,11 @@
 			isa = PBXTargetDependency;
 			target = AE98B12E177258330033496F /* SimpleProj */;
 			targetProxy = AE98B15A177258340033496F /* PBXContainerItemProxy */;
+		};
+		AE98B17717725C4F0033496F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OBD2Kit;
+			targetProxy = AE98B17617725C4F0033496F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -380,6 +500,7 @@
 		};
 		AE98B168177258340033496F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA517C722ED646D79395C121 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleProj/SimpleProj-Prefix.pch";
@@ -391,6 +512,7 @@
 		};
 		AE98B169177258340033496F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA517C722ED646D79395C121 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleProj/SimpleProj-Prefix.pch";
@@ -453,6 +575,7 @@
 				AE98B169177258340033496F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE98B16A177258340033496F /* Build configuration list for PBXNativeTarget "SimpleProjTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +584,7 @@
 				AE98B16C177258340033496F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
